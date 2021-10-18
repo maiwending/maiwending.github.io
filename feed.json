@@ -10,8 +10,8 @@
     },
     "items": [
         {
-            "id": "https://maiwending.github.io/test.html",
-            "url": "https://maiwending.github.io/test.html",
+            "id": "https://maiwending.github.io/test/",
+            "url": "https://maiwending.github.io/test/",
             "title": "test",
             "summary": "steat1 ",
             "content_html": "<p>steat1</p>\n",
