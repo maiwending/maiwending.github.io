@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>wdqt</title>
+    <link href="https://maiwending.github.io/feed.xml" rel="self" />
+    <link href="https://maiwending.github.io" />
+    <updated>2021-10-18T12:41:51-04:00</updated>
+    <author>
+        <name>Wending Mai</name>
+    </author>
+    <id>https://maiwending.github.io</id>
+
+    <entry>
+        <title>test</title>
+        <author>
+            <name>Wending Mai</name>
+        </author>
+        <link href="https://maiwending.github.io/test.html"/>
+        <id>https://maiwending.github.io/test.html</id>
+
+        <updated>2021-10-18T12:41:51-04:00</updated>
+            <summary>
+                <![CDATA[
+                    steat1 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>steat1</p>
+
+            ]]>
+        </content>
+    </entry>
+</feed>

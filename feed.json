@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "wdqt",
+    "description": "",
+    "home_page_url": "https://maiwending.github.io",
+    "feed_url": "https://maiwending.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Wending Mai"
+    },
+    "items": [
+        {
+            "id": "https://maiwending.github.io/test.html",
+            "url": "https://maiwending.github.io/test.html",
+            "title": "test",
+            "summary": "steat1 ",
+            "content_html": "<p>steat1</p>\n",
+            "author": {
+                "name": "Wending Mai"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-10-18T12:41:51-04:00",
+            "date_modified": "2021-10-18T12:41:51-04:00"
+        }
+    ]
+}
