@@ -79,11 +79,11 @@ Learn more: docs on [Notebooks](https://docs.hugoblox.com/reference/markdown/#-n
 
 ---
 
-## Why Go Plus (from $4/m)
+## Why Go Pro (from $8/m)
 
 - Enhanced HugoBlox Studio visual editor — save 10–20 hours setting up and polishing
-- Make an unforgettable first impression
-- Priority support
+- Premium CV & Resumé designs — make an unforgettable first impression
+- Pro blocks, remove attribution, and priority support
 
 ---
 
@@ -148,5 +148,4 @@ npx hugoblox create site --template academic-cv
 MIT © 2016-Present [George Cushen](https://georgecushen.com)
 
 <!--START_SECTION:news-->
-<!--Updated at 2026-03-22T01:14:36.449Z-->
 <!--END_SECTION:news-->
