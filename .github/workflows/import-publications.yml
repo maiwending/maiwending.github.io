@@ -31,17 +31,17 @@ jobs:
       PYTHON_VERSION: '3.13'
     steps:
       - name: Checkout the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # Only need recent history for publication import
           fetch-depth: 1
 
       - name: Set up Python 3.13
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.13'
       - name: Setup pip cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-academic-${{ env.ACADEMIC_VERSION }}
@@ -81,7 +81,7 @@ jobs:
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: 'feat(publications): import latest publications from bibtex'
           title: 'HugoBlox Kit - Import latest publications from Bibtex'
