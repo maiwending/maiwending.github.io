@@ -42,8 +42,16 @@ links:
     label: E-mail Me
   - icon: brands/twitter
     url: https://twitter.com/maiwending
+  - icon: brands/github
+    url: https://github.com/maiwending
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/wending-mai/
+  - icon: brands/researchgate
+    url: https://www.researchgate.net/profile/Wending-Mai
+  - icon: brands/google
+    url: https://scholar.google.com/citations?user=9n8sXoAAAAAJ&hl=en
+  - icon: brands/orcid
+    url: https://orcid.org/0000-0002-0797-4418
   - icon: brands/facebook
     url: https://www.facebook.com/wending.mai
 
