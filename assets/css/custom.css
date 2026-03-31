@@ -1,6 +1,12 @@
-/* Hide image placeholder containers on publication and project cards */
-.card figure,
-.card .hb-card-image,
-[class*="card"] figure {
+/* Hide all image placeholders on publication, project, and blog card/grid views */
+.hb-card figure,
+.hb-card img,
+[class*="article-grid"] figure,
+[class*="article-grid"] img,
+.hb-collection figure,
+.hb-collection img,
+figure.hb-featured-image,
+.card-image,
+.hb-card-image {
   display: none !important;
 }
