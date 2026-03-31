@@ -14,8 +14,23 @@ status:
   icon: ""
 role: Electromagnetics Researcher
 bio: |
-  IEEE Senior Member, OSA Life Member, and ACES Life Member. Research focused on
-  computational electromagnetics, time-varying materials, and metamaterials.
+  Wending Mai (Senior Member, IEEE) received the B.S. degree in electronic 
+  information science and technology, the M.S. degree in radio physics, and 
+  the Ph.D. degree in electromagnetic and microwave technology from the 
+  University of Electronic Science and Technology of China, Chengdu, China, 
+  in 2007, 2010, and 2019, respectively.,In 2009, he was a Student Researcher 
+  with the Lenovo Research Institute, Chengdu. Then, he became an Engineer 
+  with Texas Instrument, Shanghai and Dallas. From 2013 to 2015, he was an 
+  Assistant Professor with Xichang University. In 2017, he joined the 
+  Computational Electromagnetics and Antennas Research Laboratory, Department 
+  of Electrical Engineering, The Pennsylvania State University, as a Visting 
+  Scholar, and then a Postdoctoral Scholar, under the supervision of 
+  Prof. Douglas H. Werner. From 2022 to 2026, he was a Senior Research and 
+  Development Engineer with Ansys, Pittsburg, USA. He has published over 30 
+  technical articles and proceeding articles. He served as a reviewer for over 
+  ten journals and NSF grants. His current research interests include computational 
+  electromagnetics (hp-adaptive technique, DGTD, and nonlinear and dispersive materials), 
+  knot, and time-varying electromagnetics.,Dr. Mai is a Life Member of OPTICA and ACES.
 
 affiliations:
   - name: ""
@@ -54,9 +69,38 @@ education:
     end: 2007-06-30
 
 experience:
-  - role: ""
-    org: ""
-    start: 2019-01-01
+  - role: "Senior Research and Development Engineer"
+    org: "ANSYS/SYNOPSYS"
+    start: 2012
+    end: 2026
+    description: "Conduct research and development in computational electromagnetics, focusing on hp-adaptive techniques, 
+      DGTD methods, and time-varying EM materials. Collaborate with cross-functional teams to enhance simulation 
+      capabilities and contribute to the advancement of electromagnetic simulation technologies."
+  - role: "Postdoctoral Scholar"
+    org: "The Pennsylvania State University"
+    start: 2017
+    end: 2022
+    description: "Conducted research in computational electromagnetics, focusing on hp-adaptive techniques, DGTD methods, 
+      and time-varying EM materials. Published research findings in peer-reviewed journals and presented at international 
+      conferences. Collaborated with faculty and students on various research projects, contributing to the advancement of 
+      electromagnetic simulation technologies."
+  - role: "Assistant Professor"
+    org: "Xichang University"
+    start: 2013
+    end: 2015
+    description: "Taught undergraduate and graduate courses in electromagnetics and related subjects."
+  - role: "Engineer"
+    org: "Texas Instrument"
+    start: 2010
+    end: 2012
+    description: "Worked on the design and development of electronic components and systems, contributing to various 
+      projects and collaborating with cross-functional teams to achieve project goals."
+  - role: "Student Researcher"
+    org: "Lenovo Research Institute"
+    start: 2009
+    end: 2009
+    description: "Conducted research on emerging technologies and contributed to the development of innovative solutions 
+      in the field of electronic information science and technology." 
 
 skills:
   - name: Research
@@ -67,6 +111,22 @@ skills:
         level: 5
       - label: Time-varying EM
         level: 5
+  - name: Coding
+    items:
+      - label: MATLAB
+        level: 5
+      - label: Python
+        level: 4
+      - label: C++
+        level: 3
+  - name: Communication
+    items:
+      - label: Technical Writing
+        level: 5
+      - label: Public Speaking
+        level: 4
+      - label: Collaboration
+        level: 5 
 
 awards:
   - title: IEEE Senior Member

@@ -27,10 +27,17 @@ profiles:
     label: E-mail Me
   - icon: brands/twitter
     url: https://twitter.com/maiwending
+  - icon: brands/github
+    url: https://github.com/maiwending   
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/wending-mai/
+    url: https://www.linkedin.com/in/wdmai/
   - icon: brands/facebook
     url: https://www.facebook.com/wending.mai
+  - icon: brands/google
+    url: https://scholar.google.com/citations?user=52S0LfYAAAAJ&hl=en
+  - icon: brands/orcid
+    url: https://orcid.org/my-orcid?orcid=0000-0003-0326-7707
+
 
 interests:
   - Computational Electromagnetics
