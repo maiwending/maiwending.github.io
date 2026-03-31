@@ -7,6 +7,13 @@
 .hb-collection img,
 figure.hb-featured-image,
 .card-image,
-.hb-card-image {
+.hb-card-image,
+div[class*="aspect-"] {
+  display: none !important;
+}
+
+/* Hide footer CC license icons and Hugo Blox attribution */
+.footer-license-icons,
+p.powered-by.text-sm {
   display: none !important;
 }
