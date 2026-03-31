@@ -1,27 +1,32 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Bio
-    url: /
+  - name: Research
     weight: 10
-  - name: Papers
-    url: /#papers
+  - name: Computational EM
+    parent: Research
+    url: /tags/computational-em/
     weight: 11
-  - name: Talks
-    url: /#talks
+  - name: Time-varying EM
+    parent: Research
+    url: /tags/time-varying-em/
     weight: 12
-  - name: News
-    url: /#news
+  - name: Knot EM
+    parent: Research
+    url: /tags/knot-em/
     weight: 13
-  - name: Experience
-    url: experience/
+  - name: Blog
+    url: /blog/
     weight: 20
   - name: Projects
-    url: projects/
+    url: /projects/
     weight: 30
-  - name: Courses
-    url: courses/
+  - name: Volunteer
+    url: /volunteer/
     weight: 40
+  - name: CV
+    url: /cv/
+    weight: 50
+  - name: Contact
+    url: /#contact
+    weight: 60
