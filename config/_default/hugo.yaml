@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'Dr. Wending Mai'
 # Website URL
-baseURL: 'https://www.em-time.com/'
+baseURL: 'https://maiwending.github.io/'
 
 ############################
 ## LANGUAGE
