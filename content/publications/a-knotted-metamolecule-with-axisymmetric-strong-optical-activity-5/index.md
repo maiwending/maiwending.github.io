@@ -22,5 +22,8 @@ tags:
   - metamaterials
 
 featured: false
+hugoblox:
+  ids:
+    doi: 10.1103/PhysRevA.108.043504
 
 ---

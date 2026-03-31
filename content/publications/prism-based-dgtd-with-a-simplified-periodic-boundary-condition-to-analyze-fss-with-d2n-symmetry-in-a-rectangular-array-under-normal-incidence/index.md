@@ -24,5 +24,8 @@ tags:
   - software-tools
 
 featured: false
+hugoblox:
+  ids:
+    doi: 10.1109/LAWP.2019.2902340
 
 ---

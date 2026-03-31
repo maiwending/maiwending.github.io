@@ -20,5 +20,8 @@ tags:
   - software-tools
 
 featured: false
+links:
+  - name: Paper
+    url: https://aces-society.org/search.php?vol=36&no=1&type=2
 
 ---

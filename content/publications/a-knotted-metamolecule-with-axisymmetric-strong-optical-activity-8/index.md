@@ -25,5 +25,8 @@ tags:
   - metamaterials
 
 featured: false
+hugoblox:
+  ids:
+    doi: 10.1117/3.100281.ch7
 
 ---

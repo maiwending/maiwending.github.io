@@ -20,5 +20,8 @@ tags:
   - software-tools
 
 featured: false
+links:
+  - name: Paper
+    url: https://ieeexplore.ieee.org/abstract/document/9331591/
 
 ---

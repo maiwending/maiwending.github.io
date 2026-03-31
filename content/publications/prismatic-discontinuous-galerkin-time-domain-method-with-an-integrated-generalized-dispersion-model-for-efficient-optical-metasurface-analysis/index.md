@@ -18,9 +18,15 @@ abstract: 'Planar photonics technology is expected to facilitate new physics and
 
 tags:
   - computational-em
+  - time-varying-em
+  - knot-em
+  - community-tools
   - software-tools
   - metamaterials
 
 featured: false
+hugoblox:
+  ids:
+    doi: 10.1364/OME.399414
 
 ---

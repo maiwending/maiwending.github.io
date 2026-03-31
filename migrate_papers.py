@@ -72,10 +72,19 @@ def extract_meta(content: str) -> dict:
         raw = html.unescape(m.group(1)).strip()
         result["authors_raw"] = raw
 
-    # DOI from the "Read more" link — Publii stores DOI as the href
-    m = re.search(r'<a href="(10\.\d{4,}[^"]+)"[^>]*>Read more</a>', content)
+    # "Read more" link — may be a bare DOI, a doi.org URL, or a direct paper URL
+    m = re.search(r'<a href="([^"]+)"[^>]*>Read more</a>', content)
     if m:
-        result["doi"] = m.group(1)
+        url = html.unescape(m.group(1)).strip()
+        # Bare DOI: 10.xxxx/...
+        if re.match(r'^10\.\d{4,}/', url):
+            result["doi"] = url
+        # doi.org URL: https://doi.org/10.xxxx/...
+        elif re.match(r'^https?://doi\.org/(10\.\d{4,}/.+)', url):
+            result["doi"] = re.match(r'^https?://doi\.org/(10\.\d{4,}/.+)', url).group(1)
+        # Any other URL (IEEE, Optica, AIP, etc.)
+        else:
+            result["url"] = url
 
     # Publication venue: look for text after the abstract paragraph that mentions a journal/conference
     # (Not always present in Publii output — skip if missing)
@@ -120,12 +129,20 @@ def build_frontmatter(slug: str, meta: dict) -> str:
 
     authors_yaml = "authors:\n" + "".join(f"  - {a}\n" for a in authors)
 
+    url = meta.get("url", "")
+
     doi_section = ""
     if doi:
-        doi_section = f"""
-hugoblox:
+        doi_section = f"""hugoblox:
   ids:
     doi: {doi}
+"""
+
+    url_section = ""
+    if url and not doi:
+        url_section = f"""links:
+  - name: Paper
+    url: {url}
 """
 
     fm = f"""---
@@ -140,7 +157,7 @@ abstract: '{abstract.replace(chr(39), chr(39)+chr(39))}'
 
 {tags_yaml}
 featured: false
-{doi_section}
+{doi_section}{url_section}
 ---
 """
     return fm

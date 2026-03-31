@@ -25,5 +25,8 @@ tags:
   - metamaterials
 
 featured: false
+hugoblox:
+  ids:
+    doi: 10.1109/ACCESS.2024.3370030
 
 ---

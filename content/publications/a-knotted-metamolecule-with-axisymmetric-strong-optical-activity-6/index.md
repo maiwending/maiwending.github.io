@@ -22,5 +22,8 @@ tags:
   - metamaterials
 
 featured: false
+hugoblox:
+  ids:
+    doi: 10.1109/TAP.2023.3304123
 
 ---

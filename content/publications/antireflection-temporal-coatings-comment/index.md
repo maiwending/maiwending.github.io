@@ -20,5 +20,8 @@ tags:
   - software-tools
 
 featured: false
+links:
+  - name: Paper
+    url: https://www.osapublishing.org/optica/abstract.cfm?uri=optica-8-6-824
 
 ---

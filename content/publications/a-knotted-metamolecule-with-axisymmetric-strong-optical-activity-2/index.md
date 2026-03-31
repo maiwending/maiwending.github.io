@@ -26,5 +26,8 @@ tags:
   - metamaterials
 
 featured: false
+hugoblox:
+  ids:
+    doi: 10.1002/adom.202000948
 
 ---

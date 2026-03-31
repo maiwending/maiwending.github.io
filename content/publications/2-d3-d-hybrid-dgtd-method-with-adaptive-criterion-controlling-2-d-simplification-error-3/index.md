@@ -20,7 +20,6 @@ tags:
   - software-tools
 
 featured: false
-
 hugoblox:
   ids:
     doi: 10.1109/COMPEM.2018.8496560
