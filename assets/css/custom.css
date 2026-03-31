@@ -1,0 +1,6 @@
+/* Hide image placeholder containers on publication and project cards */
+.card figure,
+.card .hb-card-image,
+[class*="card"] figure {
+  display: none !important;
+}
