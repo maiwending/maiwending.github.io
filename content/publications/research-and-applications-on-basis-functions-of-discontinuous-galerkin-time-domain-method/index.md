@@ -13,9 +13,6 @@ abstract: 'The Discontinuous Galerkin Time-Domain (DGTD) method has gain great p
 tags:
   - computational-em
   - time-varying-em
-  - knot-em
-  - community-tools
-  - software-tools
 
 featured: false
 
