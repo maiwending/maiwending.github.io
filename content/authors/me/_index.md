@@ -41,10 +41,17 @@ interests:
 
 education:
   - area: Ph.D. in Electrical Engineering
-    institution: ""
-    date_start: ""
-    date_end: ""
-
+    institution: "Univeristy of Electronic Science and Technology of China"
+    date_start: "2015"
+    date_end: "2019"
+  - area: Master in Radio Physics
+    institution: "Univeristy of Electronic Science and Technology of China"
+    date_start: "2007"
+    date_end: "2010"
+  - area: Bachelor in Electronic Information Science and Technology
+    institution: "Univeristy of Electronic Science and Technology of China"
+    date_start: "2003"
+    date_end: "2007"
 # Skills
 skills:
   - name: Research
