@@ -71,34 +71,28 @@ education:
 experience:
   - role: "Senior Research and Development Engineer"
     org: "ANSYS/SYNOPSYS"
-    start: 2012
-    end: 2026
-    description: "Conduct research and development in computational electromagnetics, focusing on hp-adaptive techniques, 
-      DGTD methods, and time-varying EM materials. Collaborate with cross-functional teams to enhance simulation 
-      capabilities and contribute to the advancement of electromagnetic simulation technologies."
+    start: 2022-01-01
+    end: 2026-01-01
+    description: "Conduct research and development in computational electromagnetics, focusing on hp-adaptive techniques, DGTD methods, and time-varying EM materials."
   - role: "Postdoctoral Scholar"
     org: "The Pennsylvania State University"
-    start: 2017
-    end: 2022
-    description: "Conducted research in computational electromagnetics, focusing on hp-adaptive techniques, DGTD methods, 
-      and time-varying EM materials. Published research findings in peer-reviewed journals and presented at international 
-      conferences. Collaborated with faculty and students on various research projects, contributing to the advancement of 
-      electromagnetic simulation technologies."
+    start: 2017-01-01
+    end: 2022-01-01
+    description: "Conducted research in computational electromagnetics under Prof. Douglas H. Werner. Published 30+ technical articles."
   - role: "Assistant Professor"
     org: "Xichang University"
-    start: 2013
-    end: 2015
+    start: 2013-01-01
+    end: 2015-01-01
     description: "Taught undergraduate and graduate courses in electromagnetics and related subjects."
   - role: "Engineer"
-    org: "Texas Instrument"
-    start: 2010
-    end: 2012
-    description: "Worked on the design and development of electronic components and systems, contributing to various 
-      projects and collaborating with cross-functional teams to achieve project goals."
+    org: "Texas Instruments"
+    start: 2010-01-01
+    end: 2013-01-01
+    description: "Worked on design and development of electronic components and systems."
   - role: "Student Researcher"
     org: "Lenovo Research Institute"
-    start: 2009
-    end: 2009
+    start: 2009-01-01
+    end: 2010-01-01
     description: "Conducted research on emerging technologies and contributed to the development of innovative solutions 
       in the field of electronic information science and technology." 
 

@@ -21,3 +21,12 @@ main:
   - name: Projects
     url: /projects/
     weight: 30
+  - name: Volunteer
+    url: /volunteer/
+    weight: 40
+  - name: CV
+    url: /cv/
+    weight: 50
+  - name: Contact
+    url: /#contact
+    weight: 60
