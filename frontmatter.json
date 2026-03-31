@@ -1,0 +1,177 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Publications",
+      "path": "[[workspace]]/content/publications",
+      "filePrefix": ""
+    },
+    {
+      "title": "Blog Posts",
+      "path": "[[workspace]]/content/blog",
+      "filePrefix": ""
+    },
+    {
+      "title": "Projects",
+      "path": "[[workspace]]/content/projects",
+      "filePrefix": ""
+    }
+  ],
+
+  "frontMatter.taxonomy.tags": [
+    "computational-em",
+    "time-varying-em",
+    "knot-em",
+    "metamaterials",
+    "software-tools",
+    "community-tools"
+  ],
+
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "Publication",
+      "pageBundle": true,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "title": "Authors",
+          "name": "authors",
+          "type": "list"
+        },
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "YYYY-MM-DDTHH:mm:ssZ",
+          "required": true
+        },
+        {
+          "title": "Publication Type",
+          "name": "publication_types",
+          "type": "list",
+          "singleValueAsString": false,
+          "choices": [
+            { "id": "article-journal", "title": "Journal Article" },
+            { "id": "paper-conference", "title": "Conference Paper" },
+            { "id": "book-chapter", "title": "Book Chapter" },
+            { "id": "preprint", "title": "Preprint" }
+          ]
+        },
+        {
+          "title": "Journal / Conference",
+          "name": "publication",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Abstract",
+          "name": "abstract",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Featured on homepage",
+          "name": "featured",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "DOI",
+          "name": "hugoblox",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "IDs",
+              "name": "ids",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "DOI",
+                  "name": "doi",
+                  "type": "string",
+                  "single": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blog Post",
+      "pageBundle": true,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "YYYY-MM-DDTHH:mm:ssZ",
+          "required": true
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        }
+      ]
+    },
+    {
+      "name": "Project",
+      "pageBundle": true,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "YYYY-MM-DDTHH:mm:ssZ",
+          "required": true
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        }
+      ]
+    }
+  ]
+}
