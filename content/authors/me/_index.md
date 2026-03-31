@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Wending Mai
+title: Dr. William (Wending) Mai
 
 # Full name (for SEO)
 first_name: Wending
